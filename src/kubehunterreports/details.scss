@@ -1,0 +1,56 @@
+.KubeHunterReportDetails {
+  .VulnerabilitySummary {
+    .Badge {
+      &.theme-high {
+        color: white;
+        background-color: #cc1814;
+      }
+
+      &.theme-medium {
+        color: white;
+        background-color: #ffa500;
+      }
+
+      &.theme-low {
+        color: white;
+        background-color: #515456;
+      }
+
+      &.theme-unknown {
+      }
+
+    }
+  }
+
+  .VulnerabilityTable {
+    margin-left: -24px;
+    margin-right: -24px;
+
+    .TableCell {
+      &.vulnerabilityID {
+        flex-grow: 0.4;
+      }
+
+      &.severity {
+        flex-grow: 0.2;
+      }
+
+      &.high {
+        color: #cc1814;
+      }
+
+      &.medium {
+        color: #ffa500;
+      }
+
+      &.low {
+        color: #515456;
+      }
+
+      &.category {
+        flex-grow: 0.3;
+      }
+    }
+  }
+
+}

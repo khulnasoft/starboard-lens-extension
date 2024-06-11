@@ -1,0 +1,26 @@
+.ConfigAuditReportDetails {
+  .summary {
+    .Badge {
+
+      &.severity-critical {
+        color: white;
+        background-color: #cc1814;
+      }
+
+      &.severity-high {
+        color: white;
+        background-color: #ffa500;
+      }
+
+      &.severity-medium {
+        color: white;
+        background-color: #f0c20c;
+      }
+
+      &.severity-low {
+        color: white;
+        background-color: #096ab0;
+      }
+    }
+  }
+}
