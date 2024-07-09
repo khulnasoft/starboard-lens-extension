@@ -1,15 +1,15 @@
 {
-  "name": "@aquasecurity/starboard-lens-extension",
-  "publisher": "aquasecurity.github.io",
+  "name": "@khulnasoft/starboard-lens-extension",
+  "publisher": "khulnasoft.github.io",
   "version": "0.12.1",
   "description": "Lens extension for viewing Starboard security information",
-  "homepage": "https://github.com/aquasecurity/starboard-lens-extension",
+  "homepage": "https://github.com/khulnasoft/starboard-lens-extension",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aquasecurity/starboard-lens-extension.git"
+    "url": "https://github.com/khulnasoft/starboard-lens-extension.git"
   },
   "bugs": {
-    "url": "https://github.com/aquasecurity/starboard-lens-extension/issues"
+    "url": "https://github.com/khulnasoft/starboard-lens-extension/issues"
   },
   "license": "Apache-2.0",
   "engines": {

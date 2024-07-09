@@ -26,7 +26,7 @@ export class CISKubeBenchReport extends Renderer.K8sApi.KubeObject {
 
     static kind = "CISKubeBenchReport"
     static namespaced = false
-    static apiBase = "/apis/aquasecurity.github.io/v1alpha1/ciskubebenchreports"
+    static apiBase = "/apis/khulnasoft.github.io/v1alpha1/ciskubebenchreports"
 
     report: {
         scanner: Scanner

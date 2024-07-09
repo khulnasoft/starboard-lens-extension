@@ -26,7 +26,7 @@ export class Vulnerability {
 export class KubeHunterReport extends Renderer.K8sApi.KubeObject {
     static kind = "KubeHunterReport"
     static namespaced = false
-    static apiBase = "/apis/aquasecurity.github.io/v1alpha1/kubehunterreports"
+    static apiBase = "/apis/khulnasoft.github.io/v1alpha1/kubehunterreports"
 
     report: {
         scanner: Scanner;
