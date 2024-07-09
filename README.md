@@ -26,10 +26,10 @@ The following matrix indicates versions of this extension and compatible Lens re
 
 | Lens | Extension                                                                             |
 |------|---------------------------------------------------------------------------------------|
-| 5.2  | [0.2.0](https://github.com/aquasecurity/starboard-lens-extension/releases/tag/v0.2.0) |
-| 5.0  | [0.1.0](https://github.com/aquasecurity/starboard-lens-extension/releases/tag/v0.1.0) |
-| 4.0  | [0.0.2](https://github.com/aquasecurity/starboard-lens-extension/releases/tag/v0.0.2) |
-| 4.0  | [0.0.1](https://github.com/aquasecurity/starboard-lens-extension/releases/tag/v0.0.1) |
+| 5.2  | [0.2.0](https://github.com/khulnasoft/starboard-lens-extension/releases/tag/v0.2.0) |
+| 5.0  | [0.1.0](https://github.com/khulnasoft/starboard-lens-extension/releases/tag/v0.1.0) |
+| 4.0  | [0.0.2](https://github.com/khulnasoft/starboard-lens-extension/releases/tag/v0.0.2) |
+| 4.0  | [0.0.1](https://github.com/khulnasoft/starboard-lens-extension/releases/tag/v0.0.1) |
 
 ### From the Binary Releases
 
@@ -43,7 +43,7 @@ downloaded and installed. Alternatively, you can copy the download URL of the re
    <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>E</kbd> to open the **Manage Lens Extensions** page.
 3. Specify the path (.tar, .tgz) or download URL to the extension package and click **Install**.
    ![](docs/images/extensions-ui-install.png)
-4. If everything is fine, you'll see the `@aquasecurity/starboard-lens-extension` extension listed under
+4. If everything is fine, you'll see the `@khulnasoft/starboard-lens-extension` extension listed under
    **Installed Extensions**. Click **Enable** to enable it.
    ![](docs/images/extensions-ui-enable.png)
 5. Close the **Manage Lens Extensions** page and verify that the **Starboard** menu item shows up in the main menu.
@@ -58,7 +58,7 @@ You must have a working [Node.js] environment.
 
 1. Clone the source code:
    ```
-   git clone https://github.com/aquasecurity/starboard-lens-extension.git
+   git clone https://github.com/khulnasoft/starboard-lens-extension.git
    cd starboard-lens-extensions
    ```
 2. Build the extension's package:
@@ -69,11 +69,11 @@ You must have a working [Node.js] environment.
    ```
    npm pack
    ```
-   This will create the `aquasecurity-starboard-lens-extension-$VERSION.tgz` tarball in the root directory.
+   This will create the `khulnasoft-starboard-lens-extension-$VERSION.tgz` tarball in the root directory.
 4. Open Lens application and select **Lens** menu, and then click **Extensions** item, or press
    <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>E</kbd> to open the **Manage Lens Extensions** page.
-5. Specify the path the `aquasecurity-starboard-lens-extension-$VERSION.tgz` extension package and click **Install**.
-6. If everything goes fine, you'll see the `@aquasecurity/starboard-lens-extension` extension listed under
+5. Specify the path the `khulnasoft-starboard-lens-extension-$VERSION.tgz` extension package and click **Install**.
+6. If everything goes fine, you'll see the `@khulnasoft/starboard-lens-extension` extension listed under
    **Installed Extensions**.
    ![](docs/images/extensions-ui-enable.png)
 
@@ -94,20 +94,20 @@ You must have a working [Node.js] environment.
   ![](./docs/images/ciskubebench_report.png)
 
 [lens]: https://github.com/lensapp/lens
-[starboard]: https://github.com/aquasecurity/starboard
-[starboard-crds]: https://aquasecurity.github.io/starboard/latest/crds/
-[Getting Started]: https://aquasecurity.github.io/starboard/latest/operator/getting-started/
+[starboard]: https://github.com/khulnasoft/starboard
+[starboard-crds]: https://khulnasoft.github.io/starboard/latest/crds/
+[Getting Started]: https://khulnasoft.github.io/starboard/latest/operator/getting-started/
 
 [lens-installation]: https://github.com/lensapp/lens#installation
 [lens-releases]: https://github.com/lensapp/lens/releases
-[release-img]: https://img.shields.io/github/release/aquasecurity/starboard-lens-extension.svg?logo=github
-[releases]: https://github.com/aquasecurity/starboard-lens-extension/releases
-[github-all-releases-img]: https://img.shields.io/github/downloads/aquasecurity/starboard-lens-extension/total?logo=github
-[package-registry]: https://github.com/aquasecurity/starboard-lens-extension/packages/520430
-[build-action-img]: https://github.com/aquasecurity/starboard-lens-extension/workflows/Build/badge.svg
-[actions]: https://github.com/aquasecurity/starboard-lens-extension/actions
-[license]: https://github.com/aquasecurity/starboard-lens-extension/blob/master/LICENSE
-[license-img]: https://img.shields.io/github/license/aquasecurity/starboard-lens-extension
+[release-img]: https://img.shields.io/github/release/khulnasoft/starboard-lens-extension.svg?logo=github
+[releases]: https://github.com/khulnasoft/starboard-lens-extension/releases
+[github-all-releases-img]: https://img.shields.io/github/downloads/khulnasoft/starboard-lens-extension/total?logo=github
+[package-registry]: https://github.com/khulnasoft/starboard-lens-extension/packages/520430
+[build-action-img]: https://github.com/khulnasoft/starboard-lens-extension/workflows/Build/badge.svg
+[actions]: https://github.com/khulnasoft/starboard-lens-extension/actions
+[license]: https://github.com/khulnasoft/starboard-lens-extension/blob/master/LICENSE
+[license-img]: https://img.shields.io/github/license/khulnasoft/starboard-lens-extension
 
 [min-lens]: https://github.com/lensapp/lens/releases/tag/v4.0.0
 [Node.js]: https://nodejs.org/en/download/

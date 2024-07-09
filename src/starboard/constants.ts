@@ -1,1 +1,1 @@
-export const STARBOARD_API_VERSION = "aquasecurity.github.io/v1alpha1"
+export const STARBOARD_API_VERSION = "khulnasoft.github.io/v1alpha1"

@@ -38,7 +38,7 @@ export type ConfigAuditReportData = {
 export class ClusterConfigAuditReport extends Renderer.K8sApi.KubeObject {
     static kind = "ClusterConfigAuditReport"
     static namespaced = false
-    static apiBase = "/apis/aquasecurity.github.io/v1alpha1/clusterconfigauditreports"
+    static apiBase = "/apis/khulnasoft.github.io/v1alpha1/clusterconfigauditreports"
 
     report: ConfigAuditReportData
 
@@ -47,7 +47,7 @@ export class ClusterConfigAuditReport extends Renderer.K8sApi.KubeObject {
 export class ConfigAuditReport extends Renderer.K8sApi.KubeObject {
     static kind = "ConfigAuditReport"
     static namespaced = true
-    static apiBase = "/apis/aquasecurity.github.io/v1alpha1/configauditreports"
+    static apiBase = "/apis/khulnasoft.github.io/v1alpha1/configauditreports"
 
     report: ConfigAuditReportData
 }

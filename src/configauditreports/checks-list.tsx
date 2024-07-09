@@ -51,7 +51,7 @@ export class ChecksList extends React.Component<Props> {
             <TableRow key={check.checkID} nowrap>
                 <TableCell className="checkID">
                     <a target="_blank"
-                       href={"https://avd.aquasec.com/misconfig/kubernetes/" + check.checkID.toLowerCase()}>{check.checkID}</a>
+                       href={"https://avd.khulnasoft.com/misconfig/kubernetes/" + check.checkID.toLowerCase()}>{check.checkID}</a>
                 </TableCell>
                 <TableCell className="severity">
                     <Badge className={"Badge severity-" + check.severity} small label={check.severity}/>
